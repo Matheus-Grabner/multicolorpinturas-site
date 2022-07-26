@@ -1,0 +1,45 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    ul{
+        text-align: center;
+    }
+
+    #envemail{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #envemail2{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .flex{
+        flex-direction: column;
+        flex: 1 1 200px;
+    }
+    
+    #h2imagens{
+        font-size: 30px;
+    }
+}

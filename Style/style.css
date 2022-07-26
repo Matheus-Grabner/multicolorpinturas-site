@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: rgb(201, 201, 201);
+    font-family: 'Poppins', sans-serif;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    font-weight: 300px;
+    flex-direction: column;
+    line-height: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+h2{
+    font-size: 58px;
+    line-height: 10px;
+}
+
+span{
+    color: #ed9121;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-style: bold;
+    margin-top: 70px;
+    font-size: 19px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #ed9121;
+    transition: 0,3s all;
+}
+
+#contato{
+    border: 2px solid #ed9121;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#contato:hover{
+    background-color: #ed9121;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #ed9121;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+#envemail{
+    font-size: 40px;
+    line-height: 10px;
+    margin-top: 210px;
+}
+
+#envemail2{
+    font-size: 40px;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+
+#texto{
+    line-height: 1.2;
+    font-size: 22px;
+}
+
+.flex{
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+#h2imagens{
+    text-align: center;
+}
+
+.img-fundo{
+    height: 600px;
+    width: 600px;
+    padding-top: 220px;
+    margin-left: 180px;
+}
+
